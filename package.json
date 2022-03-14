@@ -23,10 +23,14 @@
   },
   "homepage": "https://github.com/hthanhdev/send-email#readme",
   "dependencies": {
+    "axios": "^0.26.1",
     "body-parser": "1.19.2",
     "cookie-parser": "1.4.6",
     "dotenv": "8.0.0",
     "express": "4.17.3",
+    "moment": "^2.29.1",
+    "nodemailer": "^6.7.2",
+    "nodemailer-sendgrid": "^1.0.3",
     "nodemon": "1.10.0"
   },
   "engines": {
