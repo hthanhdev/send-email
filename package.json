@@ -1,0 +1,35 @@
+{
+  "name": "send-email",
+  "version": "1.0.0",
+  "description": "Send email with sendgrid and nodemailer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hthanhdev/send-email.git"
+  },
+  "keywords": [
+    "nodemailer",
+    "sendgrid",
+    "sendemail"
+  ],
+  "author": "hthanhdev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hthanhdev/send-email/issues"
+  },
+  "homepage": "https://github.com/hthanhdev/send-email#readme",
+  "dependencies": {
+    "body-parser": "1.19.2",
+    "cookie-parser": "1.4.6",
+    "dotenv": "8.0.0",
+    "express": "4.17.3",
+    "nodemon": "1.10.0"
+  },
+  "engines": {
+    "node": "8.15.1"
+  }
+}
