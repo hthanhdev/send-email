@@ -20,7 +20,8 @@ const configs = {
         language: process.env.LANGUAGE || "en",
         jwt_expiration: process.env.JWT_EXP || "1d",
         jwt_secret: process.env.JWT_SECRET || "secret",
-        PASSWORD: process.env.PASSWORD || null,
+        secret_key: process.env.SECRET_KEY || null,
+        sendgrid_key: process.env.sendgrid_key || null,
     },
 };
 
